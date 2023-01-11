@@ -33,7 +33,7 @@ def error_test(x1, x2, y):
         return 0
 
 # refrance :https://medium.com/@bbssaivarma/implementation-of-logistic-regression-in-python-using-gradient-descent-without-sklearn-982ede00a3d2
-
+# and https://github.com/jairiidriss/Gradient-Descent-and-Logistic-Regression/blob/main/gradient_descent_logistic_regression.ipynb
 if __name__ == "__main__":
     data_train = pd.read_csv("train.csv")
     x = data_train[["x1", "x2"]].values
